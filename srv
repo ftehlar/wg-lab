@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+make STARTUP_CONF=$PWD/startup_srv.conf -C ../vpp $1
